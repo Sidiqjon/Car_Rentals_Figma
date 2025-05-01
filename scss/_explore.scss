@@ -1,0 +1,88 @@
+.explore__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    .title {
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -2%;
+            color: #23262F
+        };
+    
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -1%;
+            color: #777E90
+        };
+    };
+
+    .showmore__btn{
+        width: 162px;
+        height: 48px;
+        gap: 12px;
+        border-radius: 90px;
+        padding-top: 16px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        border: 2px solid #E6E8EC;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        background: #FCFCFD;
+        margin-bottom: 136px;
+        cursor: pointer;}
+
+        p{
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+    .places__wrapper {
+        width: 100%;
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .place__card {
+            width: 410px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            img {
+                width: 100%;
+                border-radius: 24px;
+                height: 265px;
+            }
+
+            .place__card__body {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h4 {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: 0%;
+                    color: #23262F;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 20px;
+                    letter-spacing: 0%;
+                    color: #777E90;
+                }
+            }
+        }
+
+    }
+}

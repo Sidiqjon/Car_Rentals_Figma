@@ -1,0 +1,120 @@
+.header {
+    background-color: #FCFCFD;
+    width: 100%;
+    max-height: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    &__navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        display: flex;
+        justify-content: space-between;
+        .navbar__left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .navbar__logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding-right: 40px;
+                border-right:2px solid #E6E8EC;
+                span{
+                    color: #23262F;
+                    font-weight: 600;
+                    font-size: 27px;
+                    line-height: 27px;
+                    letter-spacing: 0%;
+                    text-align: center;
+  
+                }
+            }
+            .navbar__travellers{
+                padding-left: 40px;
+                p {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #777E90;
+  
+                }
+            }
+        }
+        .navbar__right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+            .languagebox {
+                display: flex;
+                gap: 12px;
+            }
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #777E90;
+            .propbtn {
+                width: 154;
+                height: 40;
+                border-radius: 90px;
+                gap: 12px;
+                padding-top: 12px;
+                padding-right: 16px;
+                padding-bottom: 12px;
+                padding-left: 16px;
+                border-width: 2px;
+                background-color: #FCFCFD;
+                border: 2px solid #E6E8EC;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #23262F;
+            }
+        }
+    }
+  }
+
+
+
+@media (max-width:1100px) {
+    .support{
+        display: none;
+    };
+    .languagebox{
+        .language-icon{
+            display: none
+        }
+        .language{
+            display: none
+        }
+    }
+
+};
+
+@media (max-width:900px) {
+    .header__navbar {
+        padding-inline: 40px;
+        padding-block: 15px;
+    }
+    .navbar__right .propbtn {
+        display: none;
+    }
+
+    .navbar__left .navbar__travellers{
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .header__navbar {
+        padding-inline: 15px;
+        padding-block: 10px;
+    }
+};

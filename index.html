@@ -4,25 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <nav class="header__navbar">
-
+                <div class="navbar__left">
+                    <div class="navbar__logo">
+                        <img src="./assets/Fleet symbol.svg" alt="Fleet logo" class="logo">
+                        <span>fleet</span>
+                    </div>
+                    <div class="navbar__travellers">
+                        <p>Travellers</p>
+                    </div>
+                </div>
+                <div class="navbar__right">
+                    <a href="#" class="support">Support</a>
+                    <div class="languagebox">
+                        <img src="./assets/Line.svg" alt="Globe icon" class="language-icon">
+                        <a href="#" class="language">Language</a>
+                    </div>
+                    <button class="propbtn">List your property</button>
+                    <img src="./assets/Vector.png" alt="Notifications" class="notification-icon">
+                    <img src="./assets/avatar.png" alt="User avatar" class="user-avatar">
+                </div>
             </nav>
         </div>
     </header>
 
     <main>
         <section class="hero" id="hero">
-            
+            <div class="container hero__wrapper">
+                <div class="hero__content">
+                    <h1>Car rentals</h1>
+                    <p>Find and book a great experience.</p>
+                    <button>Start your search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular__destinations">
+            <div class="container popular__dest__wrapper">
+                <div class="title">
+                    <h3>Popular destinations</h3>
+                    <p>for car rentals</p>
+                </div>
+                <div class="dest__cards">
+                    <div class="dest__card">
+                        <img src="./assets/paris.jpg" alt="paris">
+                        <div class="dest__card__body">
+                            <h3>Paris</h3>
+                            <p class="context">Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="dest__card">
+                        <img src="./assets/london.jpg" alt="london">
+                        <div class="dest__card__body">
+                            <h3>London</h3>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="dest__card">
+                        <img src="./assets/ams.jpg" alt="ams">
+                        <div class="dest__card__body">
+                            <h3>Ams</h3>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="dest__card">
+                        <img src="./assets/milan.jpg" alt="milan">
+                        <div class="dest__card__body">
+                            <h3>Milan</h3>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="dest__card">
+                        <img src="./assets/milan.jpg" alt="milan">
+                        <div class="dest__card__body">
+                            <h3>Milan</h3>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="dest__card">
+                        <img src="./assets/london.jpg" alt="london">
+                        <div class="dest__card__body">
+                            <h3>Paris</h3>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="showmore__btn">
+                    <p>Show more</p>
+                    <img src="./assets/Line.png" alt="arrow">
+                </button>
+            </div>
+        </section>
+
+        <section class="supercharge">
+            <div class="container supercharge__wrapper">
+                <div class="supercharge-content">
+                    <h4 class="supercharge-label">SUPERCHARGE YOUR PLANNING POWERS</h4>
+                    <h2 class="supercharge-title">Rent a car in minutes with Fleet</h2>
+                    <p class="supercharge-desc">Stacks is a production-ready library of stackable content blocks built in React Native.</p>
+                    <div class="phone-input-container">
+                        <input type="tel" placeholder="Enter your phone number" class="phone-input">
+                        <img src="./assets/small circle button.svg" alt="Arrow icon" class="arrow-icon">
+                    </div>
+                </div>
+                <div class="supercharge__img">
+                    <img src="./assets/Group 2.png" alt="" class="pc">
+                    <img src="./assets/phone mockup.png" alt="" class="phone">
+                </div>
+            </div>
+        </section>
+
+        <section class="explore" id="explore">
+            <div class="container explore__wrapper">
+                <div class="title">
+                    <h3>Explore nearby</h3>
+                    <p>for car rentals</p>
+                </div>
+                <div class="places__wrapper">
+                    <div class="place__card">
+                        <img src="./assets/london.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>London</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/paris.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>Paris</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/milan.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>Milan</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./assets/paris.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>Paris</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/london.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>London</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/milan.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>Milan</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/milan.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>Milan</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/paris.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>Paris</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="place__card">
+                        <img src="./assets/london.jpg" alt="">
+                        <div class="place__card__body">
+                            <h4>London</h4>
+                            <p>Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="showmore__btn">
+                    <p>Show more</p>
+                    <img src="./assets/Line.png" alt="arrow">
+                </button>
+            </div>
         </section>
     </main>
-
-    <footer></footer>
-
-    <script src="./js/app.js"></script>
 </body>
 </html>

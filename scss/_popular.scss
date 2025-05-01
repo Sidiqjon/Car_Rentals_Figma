@@ -1,0 +1,93 @@
+.popular__dest__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+
+    .title {
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -2%;
+            color: #23262F
+        };
+    
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -1%;
+            color: #777E90
+        };
+    }
+    
+    .showmore__btn{
+        width: 162px;
+        height: 48px;
+        gap: 12px;
+        border-radius: 90px;
+        padding-top: 16px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        border: 2px solid #E6E8EC;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        background: #FCFCFD;
+        margin-bottom: 136px;
+        cursor: pointer;
+
+        p{
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    
+    .dest__cards {
+        width: 100%;
+        display: flex;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        gap: 32px;
+        overflow-x: auto;
+
+        .dest__card {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            width: 336px;
+
+            img {
+                min-width: 336px;
+                height: 256px;
+                border-radius: 24px;
+            }
+
+            &__body{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                h3{
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: 0%;
+                    color: #23262F;
+                };
+
+                p{
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 20px;
+                    letter-spacing: 0%;
+                    color: #777E90;
+                }
+            }
+        }
+    }
+
+    .dest__cards::-webkit-scrollbar{
+        display: none;
+    }
+}

@@ -1,0 +1,98 @@
+.supercharge__wrapper {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 110px;
+
+    .supercharge-content {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        h4 {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 0.3%;
+            text-transform: uppercase;
+            color: #777E90;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -2%;
+            color: #23262F;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            color: #777E90;
+        }
+        .phone-input-container {
+            display: flex;
+            padding: 0 10px;
+            align-items: center;
+            justify-content: space-between;
+            width: 310px;
+            height: 48px;
+            border-radius: 90px;
+            border: 2px solid #E6E8EC;     
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            } 
+        }
+    }
+}
+
+.supercharge__img {
+    .phone {
+        display: none;
+    }
+}
+
+@media (max-width:1100px) {
+    .supercharge__wrapper img{
+        width: 500px;
+    }
+}
+
+@media (max-width:900px) {
+    .supercharge__wrapper{
+        flex-direction: column;
+    }
+
+    .supercharge__wrapper .supercharge-content{
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .supercharge__wrapper .pc{
+        display: none;
+    }
+
+    .supercharge__wrapper .phone{
+        display: flex;
+        width: 100%;
+    }
+
+    .supercharge__wrapper .supercharge-label {
+        font-size: 7px;
+        line-height: 7px;
+    }
+
+}
+
+// @media (max-width:500px) {
+//     .supercharge__wrapper .supercharge-title{
+//         font-size: 10px;
+//         color: red;
+//     }
+// }
